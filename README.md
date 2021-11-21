@@ -11,7 +11,7 @@ este trabajo, se lo puede restaurar utilizando pgadmin4.
 -Para poder conectarte a la base de datos, primero se debe modificar el archivo
 "ConexionDB.java" ingresando el usuario de tu base de datos y la contraseña.
 
--el archivo png "Diagra base de datos" es precisamente eso...
+-el archivo png "Diagrama base de datos" es precisamente eso...
 
 -este trabajo práctico lo realice de manera apresurada y sé que tiene errores
 y no es eficiente, pero al menos fue un buen intento ^^
