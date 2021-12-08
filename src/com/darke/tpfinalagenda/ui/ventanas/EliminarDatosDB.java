@@ -12,7 +12,7 @@ import com.darke.tpfinalagenda.logicaNegocio.controladores.PersonaControlador;
 import com.darke.tpfinalagenda.logicaNegocio.controladores.TipoEventoControlador;
 import com.darke.tpfinalagenda.logicaNegocio.objetos.Agenda;
 import javax.swing.JOptionPane;
-import org.postgresql.util.PSQLException;
+
 
 /**
  *
@@ -178,6 +178,7 @@ public class EliminarDatosDB extends javax.swing.JFrame {
         agenda.setId(id_agenda);
         try {
             agendaControlador.eliminar(agenda);
+            JOptionPane.showMessageDialog(rootPane, "Agenda borrada!");
         } catch (Exception e) {
             JOptionPane.showMessageDialog(rootPane, "Antes de liminar la agenda debes eliminar los otros campos.");
         }
